@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootcss.css">
+    <link rel="stylesheet" href="radio.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+       
+<main id="main">
+<img src="boombox.svg" id="img_tit" >
+<div class="h_cont" id="live_tit"><h1>live radio</h1></div>
+
+<h3 id="h_tit">Sham FM</h3>
+<div class="btn_cont"><button id="bac_btn"><img src="arrow-left-short.svg" class="btnimg" id="btn_img1"></button>
+    <audio src="https://radioshamfm.grtvstream.com:8400/stream" id="audio"></audio>
+    <button ><img src="play.svg" class="btnimg" id="play"  ></button>
+    <button id="nex_btn"><img src="arrow-right-short.svg"  class="btnimg" id="btn_img2"></button></div>
+
+<br>
+<h2 id="volume_pers">volume</h2>
+<input type="range"  id="volume" min="0" max="100">
+<br>
+<h2 id="speed_pers">speed</h2>
+<input type="range"  id="speed" min="10" max="200">
+<br><br>
+<div class="thm_choice">
+ <div class="form-check">
+            <input class="form-check-input first" type="radio" name="flexRadioDefault" id="flexRadioDefault1"  onclick="setcolor()">
+            <label class="form-check-label" for="flexRadioDefault1">
+            </label>
+          </div>
+         
+          <div class="form-check">
+            <input class="form-check-input second" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="setcolor()" >
+            <label class="form-check-label" for="flexRadioDefault2">
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input third" type="radio" name="flexRadioDefault" id="flexRadioDefault3" onclick="setcolor()">
+            <label class="form-check-label" for="flexRadioDefault1">
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input forth" type="radio" name="flexRadioDefault" id="flexRadioDefault4" onclick="setcolor()">
+            <label class="form-check-label" for="flexRadioDefault1">
+            </label>
+          </div>
+      </div>
+</main>
+
+
+
+    
+    <script src="bootJS.js"></script>
+    <script src="radio.js"></script>
+</body>
+</html>
