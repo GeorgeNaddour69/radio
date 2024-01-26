@@ -50,7 +50,7 @@ isplayed = true
 }
 else{
 audio.pause()
-play_btn.src = "play-fill.svg"
+play_btn.src = "play.svg"
 isplayed = false
 }
 if(count==undefined)
